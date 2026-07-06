@@ -8,7 +8,8 @@
       "genre": "Animation",
       "status": "done",
       "rating": 5,
-      "note": "Holds up completely."
+      "note": "Holds up completely.",
+      "owner": "femi"
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "genre": "Science Fiction",
       "status": "done",
       "rating": 5,
-      "note": "Worth the IMAX."
+      "note": "Worth the IMAX.",
+      "owner": "femi"
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "genre": "Thriller",
       "status": "done",
       "rating": 5,
-      "note": null
+      "note": null,
+      "owner": "femi"
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "genre": "Comedy",
       "status": "active",
       "rating": null,
-      "note": "Halfway through, loving the symmetry."
+      "note": "Halfway through, loving the symmetry.",
+      "owner": "femi"
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
       "genre": "Mystery",
       "status": "want",
       "rating": null,
-      "note": null
+      "note": null,
+      "owner": "femi"
     },
     {
       "id": 6,
@@ -58,7 +63,8 @@
       "genre": "Drama",
       "status": "want",
       "rating": null,
-      "note": "Heard it's one of the best samurai films ever made."
+      "note": "Heard it's one of the best samurai films ever made.",
+      "owner": "femi"
     },
     {
       "id": 7,
@@ -68,7 +74,8 @@
       "genre": "Animation",
       "status": "done",
       "rating": 4,
-      "note": null
+      "note": null,
+      "owner": "femi"
     },
     {
       "id": 8,
@@ -78,7 +85,8 @@
       "genre": "Drama",
       "status": "done",
       "rating": 4,
-      "note": "Fun rewatch."
+      "note": "Fun rewatch.",
+      "owner": null
     },
     {
       "id": 9,
@@ -88,7 +96,8 @@
       "genre": "Animation",
       "status": "done",
       "rating": 5,
-      "note": null
+      "note": null,
+      "owner": "femi"
     },
     {
       "id": 10,
@@ -98,7 +107,8 @@
       "genre": "Animation",
       "status": "done",
       "rating": 3,
-      "note": "Always hated it honestly."
+      "note": "Always hated it honestly.",
+      "owner": "femi"
     },
     {
       "id": 11,
@@ -108,7 +118,8 @@
       "genre": "Horror",
       "status": "dropped",
       "rating": null,
-      "note": "Showed up late, so need to rewatch later."
+      "note": "Showed up late, so need to rewatch later.",
+      "owner": "femi"
     },
     {
       "id": 12,
@@ -118,7 +129,8 @@
       "genre": "Comedy",
       "status": "done",
       "rating": 5,
-      "note": "Hilarious. My favorite Seth Rogen performance by a mile."
+      "note": "Hilarious. My favorite Seth Rogen performance by a mile.",
+      "owner": "femi"
     },
     {
       "id": 13,
@@ -128,7 +140,8 @@
       "genre": "Drama",
       "status": "want",
       "rating": null,
-      "note": null
+      "note": null,
+      "owner": "femi"
     },
     {
       "id": 14,
@@ -138,7 +151,8 @@
       "genre": "Documentary",
       "status": "active",
       "rating": null,
-      "note": "Long but engrossing so far."
+      "note": "Long but engrossing so far.",
+      "owner": "femi"
     },
     {
       "id": 15,
@@ -148,7 +162,8 @@
       "genre": "Animation",
       "status": "done",
       "rating": 5,
-      "note": "Comfort movie."
+      "note": "Comfort movie.",
+      "owner": "femi"
     },
     {
       "id": 16,
@@ -158,7 +173,8 @@
       "genre": "Action",
       "status": "active",
       "rating": null,
-      "note": null
+      "note": null,
+      "owner": null
     },
     {
       "id": 17,
@@ -168,7 +184,8 @@
       "genre": "Crime",
       "status": "done",
       "rating": 4,
-      "note": null
+      "note": null,
+      "owner": "femi"
     },
     {
       "id": 18,
@@ -178,7 +195,8 @@
       "genre": "Romance",
       "status": "done",
       "rating": 5,
-      "note": null
+      "note": null,
+      "owner": "femi"
     },
     {
       "id": 19,
@@ -188,7 +206,8 @@
       "genre": "Biography",
       "status": "want",
       "rating": null,
-      "note": null
+      "note": null,
+      "owner": null
     },
     {
       "id": 20,
@@ -198,7 +217,8 @@
       "genre": "Drama",
       "status": "done",
       "rating": 5,
-      "note": "\"I ABANDONED MY CHILD!\""
+      "note": "\"I ABANDONED MY CHILD!\"",
+      "owner": "femi"
     },
     {
       "id": 21,
@@ -208,7 +228,8 @@
       "genre": "Drama",
       "status": "dropped",
       "rating": null,
-      "note": "Meant to finish this, got busy."
+      "note": "Meant to finish this, got busy.",
+      "owner": "femi"
     },
     {
       "id": 22,
@@ -218,7 +239,8 @@
       "genre": "Drama",
       "status": "want",
       "rating": null,
-      "note": null
+      "note": null,
+      "owner": null
     }
   ]
 }

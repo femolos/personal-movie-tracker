@@ -9,4 +9,5 @@ export interface Movie {
   status: Status
   rating: number | null
   note: string | null
+  owner: string | null
 }
