@@ -1,6 +1,6 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { API_URL } from "../api/client"
-import type { Status } from "../types"
+import type { Movie, Status } from "../types"
 
 export function useItemMutations() {
   const queryClient = useQueryClient()
@@ -16,7 +16,33 @@ export function useItemMutations() {
       if (!res.ok) throw new Error("Failed to update status")
       return res.json()
     },
-    onSuccess: invalidate,
+
+    onMutate: async ({ id, status }) => {
+      await queryClient.cancelQueries({ queryKey: ["items"] })
+
+      const previousItems = queryClient.getQueryData<Movie[]>(["items"])
+      const previousItem = queryClient.getQueryData<Movie>(["items", id])
+
+      queryClient.setQueryData<Movie[]>(["items"], (old) =>
+        old?.map((m) => (m.id === id ? { ...m, status } : m))
+      )
+      queryClient.setQueryData<Movie>(["items", id], (old) =>
+        old ? { ...old, status } : old
+      )
+
+      return { previousItems, previousItem, id }
+    },
+
+    onError: (_err, _vars, context) => {
+      if (context?.previousItems) {
+        queryClient.setQueryData(["items"], context.previousItems)
+      }
+      if (context?.previousItem) {
+        queryClient.setQueryData(["items", context.id], context.previousItem)
+      }
+    },
+
+    onSettled: invalidate,
   })
 
   const updateNote = useMutation({
