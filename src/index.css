@@ -1,1 +1,12 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+[data-density="compact"] .item-card {
+  padding: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+[data-density="comfortable"] .item-card {
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+}

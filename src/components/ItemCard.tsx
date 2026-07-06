@@ -16,7 +16,7 @@ export default function ItemCard({ movie }: ItemCardProps) {
   return (
     <Link
       to={`/items/${movie.id}`}
-      className="block border rounded-lg p-4 hover:shadow-md transition-shadow"
+      className="item-card block border rounded-lg p-4 hover:shadow-md transition-shadow"
     >
       <div className="flex justify-between items-start">
         <div>
