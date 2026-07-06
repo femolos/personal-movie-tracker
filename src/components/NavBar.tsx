@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import { useShallow } from "zustand/react/shallow"
 import { useUiStore } from "../store/useUiStore"
 
 const statuses = ["want", "active", "done", "dropped"] as const
@@ -6,9 +7,18 @@ const statuses = ["want", "active", "done", "dropped"] as const
 export default function NavBar() {
   const linkClass = ({ isActive }: { isActive: boolean }) =>
     `uppercase tracking-wide text-sm ${isActive ? "text-blue-600 font-semibold" : "text-gray-600"}`
-
-  const theme = useUiStore((s) => s.theme)
-  const density = useUiStore((s) => s.density)
+  /*
+    Trap avoided: selecting `{ theme, density }` as a plain object literal
+    would return a new object reference on every store update, even ones
+    unrelated to theme/density. Zustand would see "different reference",
+    treat it as changed, and re-render this component in an infinite loop.
+    useShallow does a shallow comparison of the object's keys instead of
+    comparing references, so it only re-renders when theme or density
+    actually change.
+  */
+  const { theme, density } = useUiStore(
+    useShallow((s) => ({ theme: s.theme, density: s.density }))
+  )
   const toggleTheme = useUiStore((s) => s.toggleTheme)
   const setDensity = useUiStore((s) => s.setDensity)
 
