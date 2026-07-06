@@ -1,0 +1,224 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Toy Story",
+      "creator": "John Lasseter",
+      "year": 1995,
+      "genre": "Animation",
+      "status": "done",
+      "rating": 5,
+      "note": "Holds up completely."
+    },
+    {
+      "id": 2,
+      "title": "Dune",
+      "creator": "Denis Villeneuve",
+      "year": 2021,
+      "genre": "Science Fiction",
+      "status": "done",
+      "rating": 5,
+      "note": "Worth the IMAX."
+    },
+    {
+      "id": 3,
+      "title": "Parasite",
+      "creator": "Bong Joon-ho",
+      "year": 2019,
+      "genre": "Thriller",
+      "status": "done",
+      "rating": 5,
+      "note": null
+    },
+    {
+      "id": 4,
+      "title": "The Grand Budapest Hotel",
+      "creator": "Wes Anderson",
+      "year": 2014,
+      "genre": "Comedy",
+      "status": "active",
+      "rating": null,
+      "note": "Halfway through, loving the symmetry."
+    },
+    {
+      "id": 5,
+      "title": "Mulholland Drive",
+      "creator": "David Lynch",
+      "year": 2001,
+      "genre": "Mystery",
+      "status": "want",
+      "rating": null,
+      "note": null
+    },
+    {
+      "id": 6,
+      "title": "Harakiri",
+      "creator": "Masaki Kobayashi",
+      "year": 1962,
+      "genre": "Drama",
+      "status": "want",
+      "rating": null,
+      "note": "Heard it's one of the best samurai films ever made."
+    },
+    {
+      "id": 7,
+      "title": "Mulan",
+      "creator": "Tony Bancroft",
+      "year": 1998,
+      "genre": "Animation",
+      "status": "done",
+      "rating": 4,
+      "note": null
+    },
+    {
+      "id": 8,
+      "title": "Remember the Titans",
+      "creator": "Boaz Yakin",
+      "year": 2000,
+      "genre": "Drama",
+      "status": "done",
+      "rating": 4,
+      "note": "Fun rewatch."
+    },
+    {
+      "id": 9,
+      "title": "Toy Story 2",
+      "creator": "John Lasseter",
+      "year": 1999,
+      "genre": "Animation",
+      "status": "done",
+      "rating": 5,
+      "note": null
+    },
+    {
+      "id": 10,
+      "title": "Toy Story 3",
+      "creator": "Lee Unkrich",
+      "year": 2010,
+      "genre": "Animation",
+      "status": "done",
+      "rating": 3,
+      "note": "Always hated it honestly."
+    },
+    {
+      "id": 11,
+      "title": "Obsession",
+      "creator": "Curry Barker",
+      "year": 2026,
+      "genre": "Horror",
+      "status": "dropped",
+      "rating": null,
+      "note": "Showed up late, so need to rewatch later."
+    },
+    {
+      "id": 12,
+      "title": "The Invite",
+      "creator": "Olivia Wilde",
+      "year": 2026,
+      "genre": "Comedy",
+      "status": "done",
+      "rating": 5,
+      "note": "Hilarious. My favorite Seth Rogen performance by a mile."
+    },
+    {
+      "id": 13,
+      "title": "Sorry, Baby",
+      "creator": "Eva Victor",
+      "year": 2025,
+      "genre": "Drama",
+      "status": "want",
+      "rating": null,
+      "note": null
+    },
+    {
+      "id": 14,
+      "title": "Hoop Dreams",
+      "creator": "Steve James",
+      "year": 1994,
+      "genre": "Documentary",
+      "status": "active",
+      "rating": null,
+      "note": "Long but engrossing so far."
+    },
+    {
+      "id": 15,
+      "title": "My Neighbor Totoro",
+      "creator": "Hayao Miyazaki",
+      "year": 1988,
+      "genre": "Animation",
+      "status": "done",
+      "rating": 5,
+      "note": "Comfort movie."
+    },
+    {
+      "id": 16,
+      "title": "Spider-Man: Homecoming",
+      "creator": "Jon Watts",
+      "year": 2017,
+      "genre": "Action",
+      "status": "active",
+      "rating": null,
+      "note": null
+    },
+    {
+      "id": 17,
+      "title": "Training Day",
+      "creator": "Antoine Fuqua",
+      "year": 2001,
+      "genre": "Crime",
+      "status": "done",
+      "rating": 4,
+      "note": null
+    },
+    {
+      "id": 18,
+      "title": "Titanic",
+      "creator": "James Cameron",
+      "year": 1997,
+      "genre": "Romance",
+      "status": "done",
+      "rating": 5,
+      "note": null
+    },
+    {
+      "id": 19,
+      "title": "The Aviator",
+      "creator": "Martin Scorsese",
+      "year": 2004,
+      "genre": "Biography",
+      "status": "want",
+      "rating": null,
+      "note": null
+    },
+    {
+      "id": 20,
+      "title": "There Will Be Blood",
+      "creator": "Paul Thomas Anderson",
+      "year": 2007,
+      "genre": "Drama",
+      "status": "done",
+      "rating": 5,
+      "note": "\"I ABANDONED MY CHILD!\""
+    },
+    {
+      "id": 21,
+      "title": "Magnolia",
+      "creator": "Paul Thomas Anderson",
+      "year": 1999,
+      "genre": "Drama",
+      "status": "dropped",
+      "rating": null,
+      "note": "Meant to finish this, got busy."
+    },
+    {
+      "id": 22,
+      "title": "Eyes Wide Shut",
+      "creator": "Stanley Kubrick",
+      "year": 1999,
+      "genre": "Drama",
+      "status": "want",
+      "rating": null,
+      "note": null
+    }
+  ]
+}
